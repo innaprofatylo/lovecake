@@ -1,0 +1,56 @@
+.ba-section-intro{
+	min-height: 100vh;
+	padding: 211px 0 20px;
+}
+.ba-title{
+	line-height: 58px;
+	letter-spacing: normal;
+	margin-bottom: 35px;
+	font-weight: 300;
+}
+span{
+	color: $primary-color;
+}
+.ba-main-text{
+	font-size: 24px;
+	margin-bottom: 42px;
+}
+.ba-list{
+	font-weight: 500;
+	list-style: none;
+	list-style-image: url(../img/piece.svg);
+	margin: 0;
+	padding-left: 30px;
+
+	li{
+		margin-bottom: 4px;
+		padding-left: 5px;
+	}
+}
+.ba-square{
+	background-color: $square-color;
+	position: absolute;
+	top: 200px;
+	right: 0px;
+	width: 57.4%;
+	height: 55.5%;
+	z-index: 0;
+
+	&--confectionery{
+		top: 3010px;
+	left: 0px;
+	width: 28.5%;
+	height: 54%;
+	z-index: 0;
+	}
+}
+.ba-text-left{
+	position: relative;
+	z-index: 3;
+}
+.ba-picture{
+position: absolute;
+top: 113px;
+right: 280px;
+z-index: 2;
+}

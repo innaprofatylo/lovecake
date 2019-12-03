@@ -1,0 +1,28 @@
+.ba-info{
+	display: flex;
+
+	img{
+		margin-right: 35px;
+	}
+&__foto{
+	margin-left: 95px;
+}
+
+	&__words{
+		display: flex;
+		flex-direction: column;
+
+		p{
+			margin-bottom: 32px;
+			color: #4f4f4f;
+		}
+		a{
+			text-decoration: none;
+			color: #4f4f4f;
+
+			&:hover{
+				color: $primary-color;
+			}
+		}
+	}
+}
