@@ -80,7 +80,8 @@ font-weight: 700;
 }
 .ba-img{
 	display: block;
-	width: 100%;	
+	width: 100%;
+	margin-bottom: 12px;	
 }
 .ba-text{
 	line-height: 1.2;
@@ -101,6 +102,7 @@ font-weight: 700;
 .ba-foto{
 	display: block;
 	width: 100%;
+	
 }
 .ba-name{
 	text-align: center;
@@ -108,7 +110,6 @@ font-weight: 700;
 	margin-bottom: 65px;
 	padding: 30px;
 	max-width: 100%;
-	text-align: center;
 	
 }
 .ba-text-center{
@@ -146,21 +147,29 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: 16px;
 
 	div{
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 
 	&__tel{
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
+
+		span{
+			font-size: 18px;
+		}
 	}
 	&__adress{
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 	}
 	&__inst{
 		display: flex;
 		flex-direction: column;
 	}
 }
+

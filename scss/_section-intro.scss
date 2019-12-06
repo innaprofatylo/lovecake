@@ -37,11 +37,14 @@ span{
 	z-index: 0;
 
 	&--confectionery{
-		top: 3010px;
+		top: 3085px;
 	left: 0px;
 	width: 28.5%;
 	height: 54%;
 	z-index: 0;
+	}
+	@media screen and (max-width:large - 1px){
+		display: none;
 	}
 }
 .ba-text-left{
@@ -53,4 +56,9 @@ position: absolute;
 top: 113px;
 right: 280px;
 z-index: 2;
+
+@media screen and (max-width:large - 1px){
+	position: relative;
+	display: none;
+}
 }
