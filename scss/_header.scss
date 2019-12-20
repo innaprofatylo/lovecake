@@ -75,7 +75,7 @@
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		background-color: rgba($primary-color, 0.6);
+		background-color: rgba($primary-color, 0.4);
 		opacity: 0;
 		visibility: hidden;
 		transition: 0.2s;
@@ -118,6 +118,7 @@
 		background: none;
 		color: $text-color;
 		border: none;
+		outline: none;
 	}
  }
  .ba-menu-toggle svg {

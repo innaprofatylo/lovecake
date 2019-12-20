@@ -56,7 +56,7 @@ font-weight: 700;
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
-	max-width: 1150px;
+	max-width: 1160px;
 }
 @import 'header';
 @import 'section-intro.scss';
@@ -99,16 +99,22 @@ font-weight: 700;
 .ba-text__last{
 	margin-bottom: 20px;
 }
+.ba-choise{
+text-decoration: none;
+}
 .ba-foto{
 	display: block;
 	width: 100%;
-	
+
+	&:hover{
+		opacity: 0.8;
+	}
 }
 .ba-name{
 	text-align: center;
 	background-color: #fff;
 	margin-bottom: 65px;
-	padding: 30px;
+	padding: 30px 0;
 	max-width: 100%;
 	
 }
@@ -172,4 +178,5 @@ a{
 		flex-direction: column;
 	}
 }
+@import 'gallery';
 
