@@ -22,7 +22,7 @@
 	 padding: 0;
 	 
 	 li{
-		list-style-image: url(../img/Vector1.svg);
+		 list-style: none;
 	 }
 	 a{
 		text-decoration: none;
@@ -34,9 +34,18 @@
 		}
 	 }
     li + li {
-      margin-left: 28px;
+		margin-left: 28px;
+		list-style-image: url(../img/Vector1.svg);
 	 }
   }
+}
+@media screen and (max-width: $large){
+	.ba-way__item{
+	display: none;
+	}
+	.bag-header-bar{
+		margin-bottom: 15px;
+	}
 }
 .ba-pagename{
 	margin-left: 28px;
@@ -59,6 +68,10 @@
 }
 .bag-footer {
   background-color: #fff;
+
+@media screen and (max-width: $large){
+	display: none;
+}
 }
 .ba-return{
 	text-decoration: none;
@@ -68,6 +81,10 @@
 
 	&:hover{
 		color: $primary-color;
+	}
+	@media screen and (max-width: $large){
+		color: #4f4f4f;
+			font-size: 14px;
 	}
 }
 .ba-tel{
@@ -89,8 +106,21 @@ align-items: stretch;
 		padding: 0;
 	}
 }
+// @media screen and (max-width: $large){
+// .ba-col-medium-6{
+// 	display: flex;
+// 	justify-content: space-between;
+// 	order: 1;
+// }
+// .bap-cake__text{
+// 	order: 2;
+// }
+// }
 .ba-bigfoto{
 	margin-bottom: 35px;
+	@media screen and (max-width: $large){
+		display: none;
+	}
 }
 .bap-cake{
 	margin-left: -13px;
@@ -104,6 +134,11 @@ align-items: stretch;
 	font-weight: 400;
 	text-align: center;
 	margin: -5px 0 65px -90px;
+
+	@media screen and (max-width: $large){
+		font-size: 32px;
+		text-align: center;
+	}
 }
 }
 form{
@@ -156,6 +191,13 @@ button{
 		background-color: #cd687b;
 	}
 }
+@media screen and (max-width: $large){
+	form{
+		order: 3;
+		justify-content: center;
+
+	}
+}
 .ba-nav{
 	
 
@@ -165,8 +207,8 @@ button{
 	flex-wrap: wrap;
 	font-size: 24px;
 	font-family: $text-font-family;
-	max-width: 70%;
 	padding: 0;
+	max-width: 70%;
 
 	a{
 		text-decoration: none;
@@ -176,7 +218,11 @@ button{
 			color: $primary-color;
 		}
 	}
-	
+	@media screen and (min-width: $medium){
+		.ba-nav__item{
+		width: 100%;
+		}
+	}	
 li{
 	margin-right: 35px;
 }

@@ -64,17 +64,17 @@ font-weight: 700;
 .ba-section{
 
 	&--about{
-		padding: 20px 0 107px;
+		padding: 20px 0 95px;
 	}
 	&--gallery{
-		padding: 42px 0 0;
+		padding: 42px 0 35px;
 		background-color: $bg-color;
 	}
 	&--confectionery{
 		padding: 70px 0;
 	}
 	&--contacts{
-		padding: 10px 0 70px;
+		padding: 14px 0 70px;
 	}
 
 }
@@ -89,15 +89,15 @@ font-weight: 700;
 	span{
 		font-family: $text-font-family;
 		color: $primary-color;
-		font-style: italic;
-		
+		font-style: italic;	
 	}
 	p{
 		margin-bottom: 9px;
+
+	&:nth-child(5){
+		margin-bottom: 35px;
 	}
-}
-.ba-text__last{
-	margin-bottom: 20px;
+	}
 }
 .ba-choise{
 text-decoration: none;
@@ -111,10 +111,13 @@ text-decoration: none;
 	}
 }
 .ba-name{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
 	text-align: center;
 	background-color: #fff;
 	margin-bottom: 65px;
-	padding: 30px 0;
 	max-width: 100%;
 	
 }
@@ -127,11 +130,18 @@ text-decoration: none;
 .ba-description{
 	max-width: 620px;
 	padding-left: 40px;
-	margin-top: -5px;
-
+	margin-left: -12px;
+	
 	p{
 		margin-bottom: 15px;
 		line-height: 1.2;
+
+		&:nth-child(2){
+			margin-bottom: 20px;
+		}
+		&:nth-child(4){
+			margin-bottom: 9px;
+		}
 	}
 }
 .ba-image{
