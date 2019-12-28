@@ -161,7 +161,7 @@ a{
 }
 .ba-data{
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	font-size: 16px;
 
@@ -186,6 +186,9 @@ a{
 	&__inst{
 		display: flex;
 		flex-direction: column;
+	}
+	div + div{
+		margin-right: 35px;
 	}
 }
 @import 'gallery';
