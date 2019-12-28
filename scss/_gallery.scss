@@ -248,9 +248,14 @@ button{
 			color: $primary-color;
 		}
 	}
-	@media screen and (min-width: $medium){
-		.ba-nav__item{
-		width: 100%;
+	@media screen and (max-width: $large){
+		.ba-nav{
+			&__item{
+		max-width: 100%;
+			}
+		}
+		&__list{
+			max-width: 100%;
 		}
 	}	
 }
