@@ -51,11 +51,13 @@ span{
 	position: relative;
 	z-index: 3;
 }
-.ba-picture{
+video{
 position: absolute;
 top: 113px;
 right: 17%;
 z-index: 2;
+height: 587px;
+width: 411px;
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
 	right: 0;
