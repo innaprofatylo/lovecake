@@ -113,6 +113,9 @@
 	line-height: 1;
 	margin-top: 17px;
 	margin-left: 0;
+	width: auto;
+	order: 1;
+	
  
 	&:hover, &:focus{
 		background: none;
@@ -136,7 +139,8 @@
  .ba-logo img {
 	display: block;
 	padding-top: 8px;
-
+order: 2;
+	
  }
  .ba-header-bar {
 	padding-top: 23px;
@@ -152,4 +156,3 @@
 	height: 450px;
 	background-color: $square-color;
 }*/
- 

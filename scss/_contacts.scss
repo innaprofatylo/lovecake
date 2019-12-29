@@ -3,6 +3,10 @@
 
 	img{
 		margin-right: 35px;
+
+		@media screen and (max-width:$large){
+			display: none;
+		}
 	}
 &__foto{
 	margin-left: 95px;
@@ -24,5 +28,11 @@
 				color: $primary-color;
 			}
 		}
+	}
+}
+@media screen and (max-width:$large){
+	.ba-info__adress, .ba-info__tel, .ba-info__inst{
+	flex-direction: row;
+	
 	}
 }
